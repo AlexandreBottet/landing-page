@@ -97,7 +97,7 @@ body {
     display: flex;
     margin: 2rem auto;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .informations_title, .informations_cards {
@@ -119,4 +119,31 @@ body {
 
 .informations_cards_item_description {
     color: RGB(102, 111, 123);
+}
+
+/* QUOTATION */
+
+.quotation {
+    background-color: #E5E7E7;
+}
+
+.quotation_card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    padding: 4rem;
+    margin: 0 auto;
+}
+
+.quotation_card_description {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    text-align:justify;
+}
+
+.quotation_card_author {
+    align-self: flex-end;
+    font-weight: bold;
 }
