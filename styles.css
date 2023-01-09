@@ -125,6 +125,7 @@ body {
 
 .quotation {
     background-color: #E5E7E7;
+    padding: 6rem;
 }
 
 .quotation_card {
@@ -146,4 +147,48 @@ body {
 .quotation_card_author {
     align-self: flex-end;
     font-weight: bold;
+}
+
+/* SIGN UP */
+
+.container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.container_sign-up {
+    display: flex;
+    background-color: #3882F6;
+    padding: 3rem 8rem;
+    width: 60vw;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.container_sign-up_informations_title, .container_sign-up_informations_button {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.container_sign-up_informations_description {
+    color: #E5E7E7;
+    margin-top: 0.5rem;
+}
+
+.container_sign-up_informations_button {
+    background-color: #3882F6;
+    border: none;
+    border: 2px solid white;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+}
+
+.footer {
+    padding: 3rem;
+    text-align: center;
+    color: #E5E7E7;
 }
