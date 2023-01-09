@@ -2,7 +2,78 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/** HEADER **/
+
 .header {
     background-color: #1F2937;
     display: flex;
+    flex-direction: column;
+}
+
+.header_top, .header_bottom {
+    width: 60vw;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+/* HEADER TOP */
+
+.header_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_top_logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header_top_nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header_top_nav_link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* HEADER BOTTOM */
+
+.header_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.header_bottom_content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+}
+
+.header_bottom_content_title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    line-height: 3.5rem;
+}
+
+.header_bottom_content_description {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.header_bottom_content_button {
+    width: 6rem;
+    padding: 0.5rem 1rem;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
